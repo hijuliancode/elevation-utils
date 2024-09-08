@@ -1,0 +1,13 @@
+{
+  "name": "@elevation/utils",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hijuliancode <hijuliansosa@gmail.com>",
+  "license": "ISC",
+  "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks."
+}
