@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "hijuliancode <hijuliansosa@gmail.com>",
   "license": "ISC",
-  "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks."
+  "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks.",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1"
+  }
 }
