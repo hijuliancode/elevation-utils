@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commit": "cz"
   },
   "release": {
     "branches": [
@@ -44,12 +45,18 @@
     "@commitlint/config-conventional": "^19.4.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.5",
     "semantic-release": "^24.1.0"
   },
   "husky": {
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
