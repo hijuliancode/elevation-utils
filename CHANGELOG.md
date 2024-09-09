@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/hijuliancode/elevation-utils/compare/v0.2.0...v0.2.1) (2024-09-09)
+
+
+### Bug Fixes
+
+* config - fix package name ([ebf6ec3](https://github.com/hijuliancode/elevation-utils/commit/ebf6ec3ca49c7fe379c753a270d14b7b1044e96f))
+
 # [0.2.0](https://github.com/hijuliancode/elevation-utils/compare/v0.1.0...v0.2.0) (2024-09-09)
 
 
