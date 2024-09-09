@@ -75,5 +75,8 @@
     "testMatch": [
       "/**/*.test.ts"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
