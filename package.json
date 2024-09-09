@@ -1,10 +1,12 @@
 {
   "name": "@elevationteam/utils",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -39,7 +41,10 @@
       ]
     ]
   },
-  "keywords": ["elevationteam", "utils"],
+  "keywords": [
+    "elevationteam",
+    "utils"
+  ],
   "author": "hijuliancode <hijuliansosa@gmail.com>",
   "license": "ISC",
   "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks.",

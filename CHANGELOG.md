@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.2...v0.2.3) (2024-09-09)
+
+
+### Bug Fixes
+
+* package.json - adding missing git links, check publish config ([70992e1](https://github.com/hijuliancode/elevationteam-utils/commit/70992e147a3f50f12b914f20108dcedc525adb64))
+
 ## [0.2.2](https://github.com/hijuliancode/elevation-utils/compare/v0.2.1...v0.2.2) (2024-09-09)
 
 
