@@ -4,9 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -41,7 +39,7 @@
       ]
     ]
   },
-  "keywords": [],
+  "keywords": ["elevationteam", "utils"],
   "author": "hijuliancode <hijuliansosa@gmail.com>",
   "license": "ISC",
   "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks.",
@@ -78,5 +76,13 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://github.com/hijuliancode/elevationteam-utils",
+  "bugs": {
+    "url": "https://github.com/hijuliancode/elevationteam-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hijuliancode/elevationteam-utils.git"
   }
 }
