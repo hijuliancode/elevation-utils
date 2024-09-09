@@ -12,7 +12,7 @@ describe("calculateTotalPropertyValue", () => {
   })
 
   it('should return 0 for an empty array', () => {
-    expect(calculateTotalPropertyValue([], 'value')) // 0
+    expect(calculateTotalPropertyValue([], 'value')).toBe(0) // 0
   })
 
   it('should return 0 when the property does not exist in the objects', () => {
@@ -27,6 +27,9 @@ describe("calculateTotalPropertyValue", () => {
   it('should correctly handle negative values', () => {
     array.push({ value: -50, other: 'e' }) // 60 + -50 = 10
     expect(calculateTotalPropertyValue(array, 'value')).toBe(10)
+  })
+  it('should handle null or undefined property values', () => {
+    array.push({ value: null as any, other: 'f' }) // 10 + null === NaN, which is then coerced to 0 = 10
   })
 
 })
