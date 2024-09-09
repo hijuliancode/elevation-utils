@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/hijuliancode/elevation-utils/compare/v0.2.1...v0.2.2) (2024-09-09)
+
+
+### Bug Fixes
+
+* fix TypeScript configuration to emit JavaScript files ([0bd49d9](https://github.com/hijuliancode/elevation-utils/commit/0bd49d96aa871fe53ecd12fe3ea40c9e0caccf73))
+
 ## [0.2.1](https://github.com/hijuliancode/elevation-utils/compare/v0.2.0...v0.2.1) (2024-09-09)
 
 
