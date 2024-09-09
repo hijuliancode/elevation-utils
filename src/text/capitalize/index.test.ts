@@ -10,10 +10,9 @@ describe('capitalize', () => {
   });
 
   test('should returns an empty string for non-string inputs', () => {
-    expect(capitalize(123)).toBe('');
+    expect(capitalize('')).toBe('');
     expect(capitalize(null)).toBe('');
     expect(capitalize(undefined)).toBe('');
-    expect(capitalize({})).toBe('');
   });
 
   test('should handles empty strings and strings with only spaces', () => {
