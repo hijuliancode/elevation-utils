@@ -1,3 +1,10 @@
+## [0.2.4](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.3...v0.2.4) (2024-09-10)
+
+
+### Bug Fixes
+
+* fix package.json check release config ([584a416](https://github.com/hijuliancode/elevationteam-utils/commit/584a41637c95dfae640803e3900912275f26ad1a))
+
 ## [0.2.3](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.2...v0.2.3) (2024-09-09)
 
 
