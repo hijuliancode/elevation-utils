@@ -1,3 +1,10 @@
+## [0.2.5](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.4...v0.2.5) (2024-09-10)
+
+
+### Bug Fixes
+
+* fix export modules ([81d6190](https://github.com/hijuliancode/elevationteam-utils/commit/81d6190bd23c7e05aff67e342e8cf23610ee53ac))
+
 ## [0.2.4](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.3...v0.2.4) (2024-09-10)
 
 
