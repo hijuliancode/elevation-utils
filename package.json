@@ -11,7 +11,8 @@
     "build": "tsc",
     "test": "jest",
     "prepare": "husky",
-    "commit": "cz"
+    "commit": "cz",
+    "prepublishOnly": "npm run build"
   },
   "release": {
     "branches": [

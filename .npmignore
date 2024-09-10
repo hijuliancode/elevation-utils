@@ -4,3 +4,4 @@ jest.config.js
 .github
 .husky
 commitlint.config.js
+!dist
