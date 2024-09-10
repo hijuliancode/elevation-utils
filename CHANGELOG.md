@@ -1,3 +1,10 @@
+## [0.2.6](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.5...v0.2.6) (2024-09-10)
+
+
+### Bug Fixes
+
+* adding exports on package.json ([d3a0f64](https://github.com/hijuliancode/elevationteam-utils/commit/d3a0f64fcbf7c665941809c90a24b20852c8d694))
+
 ## [0.2.5](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.4...v0.2.5) (2024-09-10)
 
 
