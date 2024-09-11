@@ -15,14 +15,6 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.js"
-    },
-    "./math": {
-      "import": "./dist/math/index.js",
-      "require": "./dist/math/index.js"
-    },
-    "./text": {
-      "import": "./dist/text/index.js",
-      "require": "./dist/text/index.js"
     }
   },
   "scripts": {
