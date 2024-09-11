@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/hijuliancode/elevationteam-utils/compare/v0.3.1...v0.4.0) (2024-09-11)
+
+
+### Features
+
+* config - Adding rollup && rollup configuration ([a422abf](https://github.com/hijuliancode/elevationteam-utils/commit/a422abf7f96de0e754af7ac99314207f878c5360))
+
 ## [0.3.1](https://github.com/hijuliancode/elevationteam-utils/compare/v0.3.0...v0.3.1) (2024-09-11)
 
 
