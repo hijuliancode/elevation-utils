@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/hijuliancode/elevationteam-utils/compare/v0.4.0...v0.4.1) (2024-09-11)
+
+
+### Bug Fixes
+
+* rollup - fix mjs and cjs exports ([4f43ac3](https://github.com/hijuliancode/elevationteam-utils/commit/4f43ac39d1924358e0f031494edac9c78ceced5a))
+
 # [0.4.0](https://github.com/hijuliancode/elevationteam-utils/compare/v0.3.1...v0.4.0) (2024-09-11)
 
 
