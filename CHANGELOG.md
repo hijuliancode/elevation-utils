@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.6...v0.3.0) (2024-09-11)
+
+
+### Features
+
+* config - improve scaffolding and release config ([d3d65e9](https://github.com/hijuliancode/elevationteam-utils/commit/d3d65e915d5bb6f9d5ea981dec92fd4498533973))
+
 ## [0.2.6](https://github.com/hijuliancode/elevationteam-utils/compare/v0.2.5...v0.2.6) (2024-09-10)
 
 
