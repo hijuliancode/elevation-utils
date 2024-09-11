@@ -4,23 +4,24 @@
   "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks.",
   "author": "hijuliancode (https://github.com/hijuliancode)",
   "license": "ISC",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc",
-    "build:watch": "npm run clean && tsc --watch",
+    "build": "npm run clean && rollup -c",
+    "build:watch": "npm run clean && rollup -c --watch",
     "test": "jest",
     "prepare": "husky",
     "commit": "cz",
@@ -45,6 +46,8 @@
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.12",
@@ -52,6 +55,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.5",
     "jest": "^29.7.0",
+    "rollup": "^4.21.2",
     "semantic-release": "^24.1.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.5.4"
