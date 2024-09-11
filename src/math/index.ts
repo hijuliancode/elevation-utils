@@ -1,1 +1,1 @@
-export { calculateTotalPropertyValue } from './calculateTotalPropertyValue';
+export { calculateTotalPropertyValue } from './calculateTotalPropertyValue'

@@ -8,11 +8,11 @@
 export const capitalize = (str: string | null | undefined): string => {
   // If the input is not a string or is an empty string, return an empty string to avoid errors.
   if (typeof str !== 'string' || str.trim().length === 0) {
-    return '';
+    return ''
   }
 
-  str = str.trim();
+  str = str.trim()
 
   // Capitalize the first letter and return the new string.
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-};
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+}

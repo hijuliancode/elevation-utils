@@ -1,4 +1,4 @@
-import { calculateTotalPropertyValue } from "./index"
+import { calculateTotalPropertyValue } from "./calculateTotalPropertyValue"
 
 describe("calculateTotalPropertyValue", () => {
   const array = [

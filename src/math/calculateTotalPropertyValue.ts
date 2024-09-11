@@ -9,10 +9,10 @@
 
 export function calculateTotalPropertyValue<T>(array: T[], propertyName: keyof T): number {
   return array.reduce((sum, obj) => {
-    const currentValue = obj[propertyName];
+    const currentValue = obj[propertyName]
     if (typeof currentValue === 'number') {
-      return sum + currentValue;
+      return sum + currentValue
     }
-    return sum;
-  }, 0);
+    return sum
+  }, 0)
 }

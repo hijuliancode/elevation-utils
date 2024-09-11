@@ -1,7 +1,11 @@
 {
   "name": "@elevationteam/utils",
   "version": "0.2.6",
+  "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks.",
+  "author": "hijuliancode (https://github.com/hijuliancode)",
+  "license": "ISC",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
@@ -11,50 +15,41 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.js"
+    },
+    "./math": {
+      "import": "./dist/math/index.js",
+      "require": "./dist/math/index.js"
+    },
+    "./text": {
+      "import": "./dist/text/index.js",
+      "require": "./dist/text/index.js"
     }
   },
   "scripts": {
-    "build": "tsc",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "build:watch": "npm run clean && tsc --watch",
     "test": "jest",
     "prepare": "husky",
     "commit": "cz",
     "prepublishOnly": "npm run build"
   },
-  "release": {
-    "branches": [
-      "main",
-      "next"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "CHANGELOG.md"
-        }
-      ],
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  },
   "keywords": [
     "elevationteam",
     "utils"
   ],
-  "author": "hijuliancode <hijuliansosa@gmail.com>",
-  "license": "ISC",
-  "description": "A collection of reusable utility functions and helpers for web, backend, and mobile applications, designed to simplify common development tasks.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hijuliancode/elevationteam-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hijuliancode/elevationteam-utils/issues"
+  },
+  "homepage": "https://github.com/hijuliancode/elevationteam-utils",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
@@ -86,15 +81,32 @@
       "/**/*.test.ts"
     ]
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/hijuliancode/elevationteam-utils",
-  "bugs": {
-    "url": "https://github.com/hijuliancode/elevationteam-utils/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hijuliancode/elevationteam-utils.git"
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
   }
 }
