@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/hijuliancode/elevationteam-utils/compare/v0.4.1...v0.4.2) (2024-09-12)
+
+
+### Bug Fixes
+
+* config - rollup, fix the way to import .d.ts files ([86430ae](https://github.com/hijuliancode/elevationteam-utils/commit/86430aeea3c96ce4f0dcac83a49c6af99e0fc176))
+
 ## [0.4.1](https://github.com/hijuliancode/elevationteam-utils/compare/v0.4.0...v0.4.1) (2024-09-11)
 
 
